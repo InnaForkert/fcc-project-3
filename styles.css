@@ -1,0 +1,48 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    height: 100vh;
+    margin-right: 35%;
+    z-index: 10;
+
+    text-align: center;
+    border: 3px solid darkslategrey;
+    background-color: whitesmoke;
+}
+
+.nav-link {
+    padding: 20px 40px;
+    text-decoration: none;
+
+    display: block;
+    
+    border-top: 2px solid darkslategrey;
+
+    font-size: 18px;
+    color: black;
+    
+}
+
+.main-section {
+    position: relative;
+    top: 0;
+    left: 350px;
+
+    border-bottom: 2px dashed darkslategrey;
+}
+
+code {
+    background-color:rgba(243, 234, 192, 0.466);
+    padding: 20px 40px;
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 4px;
+}

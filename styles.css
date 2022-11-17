@@ -1,89 +1,86 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 nav {
-    position: fixed;
-    top: 12px;
-    left: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
 
-    /* display: block; */
+  width: 300px;
+  z-index: 10;
 
-    width: 300px;
-    z-index: 10;
-
-    text-align: center;
-    border: 3px solid rgb(7, 26, 112);
-    background-color: whitesmoke;
+  text-align: center;
+  border: 3px solid rgb(7, 26, 112);
+  background-color: whitesmoke;
 }
 
-h1, h2, h3 {
-    margin: 0;
+h1,
+h2,
+h3 {
+  margin: 0;
 }
 
 header {
-    font-size: 20px;
-    font-weight: 700;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .nav-link {
-    padding: 20px 40px;
-    text-decoration: none;
+  padding: 20px 40px;
+  text-decoration: none;
 
-    display: block;
-    
-    border-top: 2px solid rgb(7, 26, 112);
+  display: block;
 
-    font-size: 18px;
-    color: black;
-    
+  border-top: 2px solid rgb(7, 26, 112);
+
+  font-size: 18px;
+  color: black;
 }
 
 .nav-link:hover {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 .main-section {
+  margin-left: 350px;
 
-    margin-left: 350px;
- 
-    border-bottom: 2px dashed rgb(7, 26, 112);
+  border-bottom: 2px dashed rgb(7, 26, 112);
 
-    padding: 15px;
+  padding: 15px;
 }
 
 code {
-    background-color:rgba(243, 234, 192, 0.466);
-    padding: 20px 40px;
-    display: block;
-    width: 50%;
-    margin: 0 auto;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    border-radius: 4px;
+  background-color: rgba(243, 234, 192, 0.466);
+  padding: 20px 40px;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 4px;
 }
 
-
 @media screen and (max-width: 768px) {
-    code {
-        width: 100%;
-    }
+  code {
+    width: 100%;
+  }
 
-    .nav-link {
-        font-size: 14px;
-        padding: 7px;
-    }
+  .nav-link {
+    font-size: 14px;
+    padding: 7px;
+  }
 
-    h1 {
-        font-size: 16px;
-    }
+  h1 {
+    font-size: 16px;
+  }
 
-    nav {
-        width: 25%;
-        scroll-behavior: smooth;
-    }
+  nav {
+    width: 25%;
+    scroll-behavior: smooth;
+  }
 
-    .main-section {
-        margin-left: 30%;
-    }
-   
+  .main-section {
+    margin-left: 30%;
+  }
 }
